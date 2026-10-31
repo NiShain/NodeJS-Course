@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "rootDir": "./src",        // Nơi chứa các file .ts gốc
+    "outDir": "./dist",        // Nơi tsc tự động xuất các file .js ra
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"                 // Chỉ bảo TypeScript quét file trong src/
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"                     // Bỏ qua thư mục build
+  ]
+}
